@@ -78,6 +78,7 @@ class _DashboardPageState extends State<DashboardPage> {
                           if (value!.isEmpty) {
                             return "Empty Field";
                           }
+                          return null;
                         },
                       ),
                     ),
@@ -102,6 +103,7 @@ class _DashboardPageState extends State<DashboardPage> {
                           if (value!.isEmpty) {
                             return "Empty Field";
                           }
+                          return null;
                         },
                       ),
                     ),
@@ -141,6 +143,7 @@ class _DashboardPageState extends State<DashboardPage> {
                           if (value!.isEmpty) {
                             return "Empty Field";
                           }
+                          return null;
                         },
                       ),
                     ),
